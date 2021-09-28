@@ -1,0 +1,111 @@
+h1{
+    font-size: 40px; /* 文字サイズを指定 */
+    color: brown;
+    background-color: wheat;
+    padding: 15px; /* 内部の余白を指定 */
+    margin: 10px 0px;
+}
+
+.content{
+    background-color: whitesmoke;
+    padding: 15px;
+    border: solid 1px #ccc; /* border: タイプ 太さ 色 */
+    /* タイプ
+        none: ボーダーは表示されず、太さも0になります。表のセルなどのボーダーが重なり合う場合は他の値が優先されます。これが初期値です。
+        hidden: ボーダーは表示されず、太さも0になります。表のセルなどのボーダーが重なり合う場合はこの値が優先されます。
+        solid: 1本線で表示されます。
+        double: 2本線で表示されます。
+        groove: 立体的に窪んだ線で表示されます。
+        ridge: 立体的に隆起した線で表示されます。
+        inset: 上と左のボーダーが暗く、下と右のボーダーが明るく表示され、ボーダーで囲まれた領域全体が立体的に窪んだように表示されます。上下左右の一部だけに指定しても立体感は出ません。
+        outset: 上と左のボーダーが明るく、下と右のボーダーが暗く表示され、ボーダーで囲まれた領域全体が立体的に隆起したように表示されます。上下左右の一部だけに指定しても立体感は出ません。
+        dashed: 破線で表示されます。
+        dotted: 点線で表示されます。
+    */
+}
+
+img{
+    border: solid 1px #ccc;
+    border-radius: 50%;
+}
+
+a:hover{ /* マウスを乗せたときの色 */
+    color:red;
+}
+
+table{
+    border: solid 1px #ccc;
+    padding: 15px;
+    background-color: white;
+}
+
+td{
+    text-align: right;
+}
+
+.header{
+    background-size: cover;
+    background-image: url("./nuno.jpg");
+    color:white;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.panel{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.panel-odd{
+    clear:both;
+    padding-left: 0px;
+}
+
+.panel-even{
+    padding-right: 0px;
+}
+
+#toTop{
+    position: fixed;
+    width: 14%;
+    height: 50px;
+    background-color: white;
+    border: solid 1px #ccc;
+    z-index: 1;
+    bottom: 0;
+    left: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+#toTop > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 50px 50px 50px;
+    background-color: red;
+}
+
+.clear{
+    clear: both;
+}
