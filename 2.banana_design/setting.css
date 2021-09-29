@@ -23,3 +23,13 @@ a{
 a:hover{
     color: #1d487b;
 }
+
+.content{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.main-content{
+    background-color: #f4f9ea;
+    padding-top: 30px;
+}
